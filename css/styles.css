@@ -66,6 +66,8 @@ img {
 .button-set:hover,
 .button-set:focus {
     background-color: #404bbf;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 ul, ol {
@@ -89,6 +91,8 @@ a {
 .nav-type .nav-menu:hover,
 .nav-type .nav-menu:focus {
     color: #404bbf;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-ul .nav-menu:active {
     color: #404bbf;
@@ -166,6 +170,8 @@ address {
 .address-type:hover,
 .address-type:focus {
     color: #404bbf;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-header {
@@ -291,6 +297,8 @@ address {
 }
 .team-icons:hover {
     background-color: #404bbf;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icons-social {
     fill: #f4f4fd;
@@ -314,8 +322,10 @@ address {
 }
 .portfolio-items {
     width: calc((100% - 48px) / 3);
-    position: relative;
+}
+.image-div {
     overflow: hidden;
+    position: relative;
 }
 .portfolio-items-overlay {
     position: absolute;
@@ -323,18 +333,21 @@ address {
     left: 0;
     width: 360px;
     height: 300px;
-    transform: translateY(-100%);
+    transform: translateY(100%);
     background-color: #4d5ae5;
     display: flex;
 }
 .portfolio-items:hover .portfolio-items-overlay {
     transform: translateY(0);
-    transition: transform 250ms ease-in-out;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-items:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay-description {
     padding-top: 40px;
@@ -400,6 +413,8 @@ address {
 }
 .footer-icons:hover {
     background-color:  #31d0aa;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section {
     padding-top: 188px;
