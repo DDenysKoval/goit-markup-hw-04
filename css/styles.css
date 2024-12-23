@@ -129,6 +129,7 @@ a {
     margin: 0;
     padding: 0;
 }
+
 .nav-menu {
     display: flex;
     position: relative;
@@ -360,7 +361,6 @@ address {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    position: relative;
 }
 .footer-div .logo-type {
     display: inline-block;
@@ -371,8 +371,6 @@ address {
 }
 .footer-social-media {
     display: inline-block;
-    position: absolute;
-    left: 384px;
 }
 .footer-text {
     line-height: 1.5;
@@ -439,4 +437,8 @@ address {
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #fff;
+}
+.footer-flex {
+    display: flex;
+    gap: 120px;
 }
